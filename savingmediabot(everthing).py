@@ -10,7 +10,7 @@ from queue import Queue
 
 # ================= CONFIG ================= #
 
-BOT_TOKEN = "8606303101:AAGw3fHdI5jpZOOuFCSoHlPKb1Urj4Oidk4"
+BOT_TOKEN = "8695844889:AAG4-jb2S1Y9BAF5O92WxkWZOaeubM5P3o8"
 # DATABASE_URL = "YOUR_POSTGRES_URL"
 DATABASE_URL = os.getenv("DATABASE_URL")
 ADMIN_ID = 8305774350  # Your Telegram ID
@@ -1371,4 +1371,5 @@ if __name__ == "__main__":
     resume_jobs()   # ADD THIS LINE
     bot.remove_webhook()
     print("Bot is running...")
+
     bot.infinity_polling(skip_pending=True)
