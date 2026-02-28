@@ -14,7 +14,7 @@ from telebot.apihelper import ApiTelegramException
 BOT_TOKEN = "8606303101:AAGw3fHdI5jpZOOuFCSoHlPKb1Urj4Oidk4"
 # DATABASE_URL = "YOUR_POSTGRES_URL"
 DATABASE_URL = os.getenv("DATABASE_URL")
-ADMIN_ID = 8305774350  # Your Telegram ID
+ADMIN_ID = 8297824363  # Your Telegram ID
 user_sessions = {}
 user_timers = {}
 live_jobs = {}
@@ -1724,4 +1724,5 @@ if __name__ == "__main__":
     bot.remove_webhook()
     
     print("Bot is running...")
+
     bot.infinity_polling(skip_pending=True)
